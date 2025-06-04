@@ -1,0 +1,83 @@
+[
+    {
+        "id": "1",
+        "name": "story book",
+        "description": "A collection of short stories for children",
+        "category": "paid",
+        "price": 12.99,
+        "image": "https://example.com/images/story-book.jpg"
+        
+    },
+    {
+        "id": "2",
+        "name": "science fiction novel",
+        "description": "A thrilling science fiction adventure",
+        "category": "paid",
+        "price": 15.99,
+        "image": "https://example.com/images/science-fiction-novel.jpg"
+    },
+    {
+        "id": "3",
+        "name": "cooking guide",
+        "description": "A comprehensive guide to cooking delicious meals",
+        "category": "free",
+        "price": 0.00,
+        "image": "https://example.com/images/cooking-guide.jpg"
+    },
+    {
+        "id": "4",
+        "name": "travel diary",
+        "description": "A diary for travelers to document their adventures",
+        "category": "paid",
+        "price": 9.99,
+        "image": "https://example.com/images/travel-diary.jpg"
+    },
+    {
+        "id": "5",
+        "name": "fitness journal",
+        "description": "A journal to track your fitness journey and goals",
+        "category": "free",
+        "price": 0.00,
+        "image": "https://example.com/images/fitness-journal.jpg"
+    },
+    {
+        "id": "6",
+        "name": "art portfolio",
+        "description": "A portfolio showcasing various art pieces",
+        "category": "paid",
+        "price": 20.00,
+        "image": "https://example.com/images/art-portfolio.jpg"
+    },
+    {
+        "id": "7",
+        "name": "photography book",
+        "description": "A book filled with stunning photography",
+        "category": "paid",
+        "price": 18.50,
+        "image": "https://example.com/images/photography-book.jpg"
+    },
+    {
+        "id": "8",
+        "name": "history textbook",
+        "description": "An in-depth textbook on world history",
+        "category": "free",
+        "price": 0.00,
+        "image": "https://example.com/images/history-textbook.jpg"
+    },
+    {
+        "id": "9",
+        "name": "self-help guide",
+        "description": "A guide to personal development and self-improvement",
+        "category": "paid",
+        "price": 14.99,
+        "image": "https://example.com/images/self-help-guide.jpg"
+    },
+    {
+        "id": "10",
+        "name": "children's book",
+        "description": "A delightful book for children with colorful illustrations",
+        "category": "free",
+        "price": 0.00,
+        "image": "https://example.com/images/childrens-book.jpg"
+    }
+]
