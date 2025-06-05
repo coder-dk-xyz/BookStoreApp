@@ -1,83 +1,226 @@
+
 [
     {
         "id": "1",
-        "name": "story book",
-        "description": "A collection of short stories for children",
+        "title": "The Great Adventure",
+        "name": "John Doe",
+        "description": "A thrilling adventure story for young readers",
         "category": "paid",
         "price": 12.99,
-        "image": "https://example.com/images/story-book.jpg"
+        
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
         
     },
     {
         "id": "2",
-        "name": "science fiction novel",
-        "description": "A thrilling science fiction adventure",
-        "category": "paid",
-        "price": 15.99,
-        "image": "https://example.com/images/science-fiction-novel.jpg"
+        "title": "Mystery of the Lost Treasure",
+        "name": "Jane Smith",
+        "description": "An intriguing mystery that keeps you guessing",
+        "category": "free",
+        "price": 0.00,
+        
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
     },
     {
         "id": "3",
-        "name": "cooking guide",
-        "description": "A comprehensive guide to cooking delicious meals",
-        "category": "free",
-        "price": 0.00,
-        "image": "https://example.com/images/cooking-guide.jpg"
+        "title": "Science Wonders",
+        "name": "Alice Johnson",
+        "description": "Exploring the wonders of science in a fun way",
+        "category": "paid",
+        "price": 15.50,
+        
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
     },
     {
         "id": "4",
-        "name": "travel diary",
-        "description": "A diary for travelers to document their adventures",
-        "category": "paid",
-        "price": 9.99,
-        "image": "https://example.com/images/travel-diary.jpg"
+        "title": "History Unveiled",
+        "name": "Bob Brown",
+        "description": "A captivating journey through history's greatest events",
+        "category": "free",
+        "price": 0.00,
+        
+       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
     },
     {
         "id": "5",
-        "name": "fitness journal",
-        "description": "A journal to track your fitness journey and goals",
-        "category": "free",
-        "price": 0.00,
-        "image": "https://example.com/images/fitness-journal.jpg"
+        "title": "Fantasy Realms",
+        "name": "Charlie Green",
+        "description": "Dive into a world of magic and fantasy",
+        "category": "paid",
+        "price": 9.99,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+        
     },
     {
         "id": "6",
-        "name": "art portfolio",
-        "description": "A portfolio showcasing various art pieces",
-        "category": "paid",
-        "price": 20.00,
-        "image": "https://example.com/images/art-portfolio.jpg"
+        "title": "Cooking Delights",
+        "name": "Diana White",
+        "description": "A collection of delicious recipes for every occasion",
+        "category": "free",
+        "price": 0.00,
+       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+        
+        
     },
     {
         "id": "7",
-        "name": "photography book",
-        "description": "A book filled with stunning photography",
+        "title": "Tech Innovations",
+        "name": "Ethan Black",
+        "description": "Discover the latest trends in technology",
         "category": "paid",
-        "price": 18.50,
-        "image": "https://example.com/images/photography-book.jpg"
+        "price": 20.00,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+        
+        
     },
     {
         "id": "8",
-        "name": "history textbook",
-        "description": "An in-depth textbook on world history",
+        "title": "Artistic Expressions",
+        "name": "Fiona Blue",
+        "description": "A journey through the world of art and creativity",
         "category": "free",
         "price": 0.00,
-        "image": "https://example.com/images/history-textbook.jpg"
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+        
+       
     },
     {
         "id": "9",
-        "name": "self-help guide",
-        "description": "A guide to personal development and self-improvement",
+        "title": "Travel Diaries",
+        "name": "George Yellow",
+        "description": "Explore the world through captivating travel stories",
         "category": "paid",
-        "price": 14.99,
-        "image": "https://example.com/images/self-help-guide.jpg"
+        "price": 18.75,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+        
+  
     },
     {
         "id": "10",
-        "name": "children's book",
-        "description": "A delightful book for children with colorful illustrations",
+        "title": "Health and Wellness",
+        "name": "Hannah Red",
+        "description": "A guide to living a healthy and balanced life",
         "category": "free",
         "price": 0.00,
-        "image": "https://example.com/images/childrens-book.jpg"
+       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "11",
+        "title": "Adventure Awaits",
+        "name": "Ian Silver",
+        "description": "Embark on an epic adventure filled with excitement",
+        "category": "paid",
+        "price": 14.99,
+       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "12",
+        "title": "Mysteries of the Deep",
+        "name": "Julia Gold",
+        "description": "Uncover the secrets of the ocean's depths",
+        "category": "free",
+        "price": 0.00,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "13",
+        "title": "Culinary Adventures",
+        "name": "Kevin Bronze",
+        "description": "A culinary journey through exotic cuisines",
+        "category": "paid",
+        "price": 22.50,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": "14",
+        "title": "Nature's Wonders",
+        "name": "Laura Emerald",
+        "description": "A breathtaking exploration of nature's beauty",
+        "category": "free",
+        "price": 0.00,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "15",
+        "title": "Space Odyssey",
+        "name": "Mike Sapphire",
+        "description": "Journey through the cosmos and beyond",
+        "category": "paid",
+        "price": 19.99,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "16",
+        "title": "Fitness Journey",
+        "name": "Nina Ruby",
+        "description": "A guide to achieving your fitness goals",
+        "category": "free",
+        "price": 0.00,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "17",
+        "title": "Mindfulness and Meditation",
+        "name": "Oscar Pearl",
+        "description": "A journey to inner peace and mindfulness",
+        "category": "paid",
+        "price": 11.50,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "18",
+        "title": "Gardening Tips",
+        "name": "Paula Diamond",
+        "description": "A guide to creating your own garden paradise",
+        "category": "free",
+        "price": 0.00,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "19",
+        "title": "Photography Essentials",
+        "name": "Quentin Topaz",
+        "description": "Master the art of photography with expert tips",
+        "category": "paid",
+        "price": 17.99,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
+    },
+    {
+        "id": "20",
+        "title": "DIY Projects",
+        "name": "Rachel Amethyst",
+        "description": "Creative DIY projects for home and garden",
+        "category": "free",
+        "price": 0.00,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        
+       
     }
 ]

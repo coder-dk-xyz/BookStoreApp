@@ -14,8 +14,7 @@ function Banner() {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
               et totam. Tempora amet atque expedita, quae corrupti totam sed
               pariatur corporis at veniam est voluptas animi!
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum officiis provident quibusdam impedit quidem. Sit ipsam deserunt iusto fuga, qui alias dolores facere quis dicta aliquid velit cupiditate, magni molestiae.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam harum libero repudiandae quaerat et nostrum id minima deserunt ex delectus quas, accusamus quidem dicta iste alias corporis aspernatur magni reiciendis, vitae ab possimus provident nulla. Consequatur, sint? Tempore amet officia fugiat odio minus consequatur. Temporibus quisquam debitis placeat repudiandae?
+              
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
