@@ -1,4 +1,5 @@
 
+
 [
     {
         "id": "1",
@@ -16,211 +17,190 @@
         "id": "2",
         "title": "Mystery of the Lost Treasure",
         "name": "Jane Smith",
-        "description": "An intriguing mystery that keeps you guessing",
-        "category": "free",
-        "price": 0.00,
+        "description": "A captivating mystery that keeps you guessing",
+        "category": "paid",
+        "price": 15.99,
         
         "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
-        
     },
     {
         "id": "3",
-        "title": "Science Wonders",
-        "name": "Alice Johnson",
-        "description": "Exploring the wonders of science in a fun way",
-        "category": "paid",
-        "price": 15.50,
+        "title": "Science for Kids",
+        "name": "Emily Johnson",
+        "description": "An engaging introduction to science concepts for children",
+        "category": "free",
+        "price": 0.00,
         
         "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
-        
     },
     {
         "id": "4",
-        "title": "History Unveiled",
-        "name": "Bob Brown",
-        "description": "A captivating journey through history's greatest events",
-        "category": "free",
-        "price": 0.00,
+        "title": "History Adventures",
+        "name": "Michael Brown",
+        "description": "Explore history through exciting stories and characters",
+        "category": "paid",
+        "price": 10.99,
         
-       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
-        
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "5",
-        "title": "Fantasy Realms",
-        "name": "Charlie Green",
-        "description": "Dive into a world of magic and fantasy",
-        "category": "paid",
-        "price": 9.99,
+        "title": "Math Magic",
+        "name": "Sarah Davis",
+        "description": "Fun math puzzles and games for young learners",
+        "category": "free",
+        "price": 0.00,
+        
         "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
-        
-        
     },
     {
         "id": "6",
-        "title": "Cooking Delights",
-        "name": "Diana White",
-        "description": "A collection of delicious recipes for every occasion",
-        "category": "free",
-        "price": 0.00,
-       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        "title": "The Art of Storytelling",
+        "name": "David Wilson",
+        "description": "Learn the secrets of captivating storytelling",
+        "category": "paid",
+        "price": 14.99,
         
-        
-        
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "7",
-        "title": "Tech Innovations",
-        "name": "Ethan Black",
-        "description": "Discover the latest trends in technology",
-        "category": "paid",
-        "price": 20.00,
+        "title": "Nature Explorers",
+        "name": "Laura Garcia",
+        "description": "Discover the wonders of nature through engaging stories",
+        "category": "free",
+        "price": 0.00,
+        
         "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
-        
-        
-        
     },
     {
         "id": "8",
-        "title": "Artistic Expressions",
-        "name": "Fiona Blue",
-        "description": "A journey through the world of art and creativity",
-        "category": "free",
-        "price": 0.00,
+        "title": "Coding for Kids",
+        "name": "James Martinez",
+        "description": "An introduction to coding concepts for young minds",
+        "category": "paid",
+        "price": 18.99,
+        
         "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
-        
-        
-       
     },
     {
         "id": "9",
-        "title": "Travel Diaries",
-        "name": "George Yellow",
-        "description": "Explore the world through captivating travel stories",
-        "category": "paid",
-        "price": 18.75,
+        "title": "Adventure in Space",
+        "name": "Sophia Hernandez",
+        "description": "A thrilling space adventure for young explorers",
+        "category": "free",
+        "price": 0.00,
+        
         "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
-        
-        
-  
     },
     {
         "id": "10",
-        "title": "Health and Wellness",
-        "name": "Hannah Red",
-        "description": "A guide to living a healthy and balanced life",
-        "category": "free",
+        "title": "The Secret Garden",
+        "name": "Olivia Lopez",
+        "description": "",
+        "category": "paid",
         "price": 0.00,
-       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "11",
-        "title": "Adventure Awaits",
-        "name": "Ian Silver",
-        "description": "Embark on an epic adventure filled with excitement",
+        "title": "The Magic of Reading",
+        "name": "Liam Gonzalez",
+        "description": "A magical journey through the world of books",
         "category": "paid",
-        "price": 14.99,
-       "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        "price": 9.99,
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "12",
-        "title": "Mysteries of the Deep",
-        "name": "Julia Gold",
-        "description": "Uncover the secrets of the ocean's depths",
+        "title": "Exploring the Ocean",
+        "name": "Emma Perez",
+        "description": "Dive into the mysteries of the ocean with this exciting book",
         "category": "free",
         "price": 0.00,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "13",
-        "title": "Culinary Adventures",
-        "name": "Kevin Bronze",
-        "description": "A culinary journey through exotic cuisines",
+        "title": "The World of Dinosaurs",
+        "name": "Ava Wilson",
+        "description": "An exciting journey through the age of dinosaurs",
         "category": "paid",
-        "price": 22.50,
+        "price": 11.99,
+        
         "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "14",
-        "title": "Nature's Wonders",
-        "name": "Laura Emerald",
-        "description": "A breathtaking exploration of nature's beauty",
+        "title": "Adventure in the Jungle",
+        "name": "Mia Anderson",
+        "description": "A thrilling jungle adventure for young adventurers",
         "category": "free",
         "price": 0.00,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "15",
-        "title": "Space Odyssey",
-        "name": "Mike Sapphire",
-        "description": "Journey through the cosmos and beyond",
+        "title": "The Wonders of Space",
+        "name": "Noah Thomas",
+        "description": "Explore the wonders of space with this fascinating book",
         "category": "paid",
-        "price": 19.99,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        "price": 13.99,
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "16",
-        "title": "Fitness Journey",
-        "name": "Nina Ruby",
-        "description": "A guide to achieving your fitness goals",
+        "title": "The Enchanted Forest",
+        "name": "Lucas Taylor",
+        "description": "A magical journey through an enchanted forest",
         "category": "free",
         "price": 0.00,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "17",
-        "title": "Mindfulness and Meditation",
-        "name": "Oscar Pearl",
-        "description": "A journey to inner peace and mindfulness",
+        "title": "The Adventures of Sherlock Holmes",
+        "name": "Charlotte Moore",
+        "description": "Join Sherlock Holmes in solving thrilling mysteries",
         "category": "paid",
-        "price": 11.50,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
+        "price": 16.99,
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "18",
-        "title": "Gardening Tips",
-        "name": "Paula Diamond",
-        "description": "A guide to creating your own garden paradise",
+        "title": "The Magic of Nature",
+        "name": "Amelia Jackson",
+        "description": "Discover the magic of nature through captivating stories",
         "category": "free",
         "price": 0.00,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "19",
-        "title": "Photography Essentials",
-        "name": "Quentin Topaz",
-        "description": "Master the art of photography with expert tips",
+        "title": "The Secret of the Ancient Pyramid",
+        "name": "Ethan White",
+        "description": "Uncover the secrets of an ancient pyramid in this thrilling book",
         "category": "paid",
         "price": 17.99,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     },
     {
         "id": "20",
-        "title": "DIY Projects",
-        "name": "Rachel Amethyst",
-        "description": "Creative DIY projects for home and garden",
-        "category": "free",
+        "title": "The Journey to the Center of the Earth",
+        "name": "Isabella Harris",
+        "description": "An exciting journey to the center of the Earth",
+        "category": "paid",
         "price": 0.00,
-        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
         
-       
+        "image":"https://images-na.ssl-images-amazon.com/images/I/41aSxaeaixL._SY344_BO1,204,203,200_.jpg"
     }
 ]

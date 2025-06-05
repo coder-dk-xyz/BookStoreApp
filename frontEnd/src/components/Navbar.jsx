@@ -83,7 +83,9 @@ function Navbar() {
           </div>
 
           {/* search bar */}
-          <label className=" px-2 py-2 border max-w-2xl
+          {/* hidden when it is on mobile */}
+          <div className="form-control hidden lg:block">
+            <label className=" px-2 py-2 border max-w-2xl 
           rounded-lg justify-between flex items-center gap-2">
             <input
               type="text"
@@ -103,6 +105,8 @@ function Navbar() {
               />
             </svg>
           </label>
+
+          </div>
 
           {/* theme controller */}
           <label className="swap swap-rotate">

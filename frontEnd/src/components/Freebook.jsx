@@ -8,7 +8,6 @@ import list from "../../public/list.json";
 import Cards from "./Cards";
 
 
-
 function Freebook() {
   const filterData = list.filter((item) => item.category === "free");
   console.log(filterData);

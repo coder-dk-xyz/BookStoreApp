@@ -1,11 +1,11 @@
-// import React from 'react'
-// // import axios from "axios";
-// // import { Link } from "react-router-dom";
+import React from 'react'
+// import axios from "axios";
+import { Link } from "react-router-dom";
 // import list from "../../public/list.json";
 // import Navbar from './Navbar';
 // import Footer from './Footer';
 
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,9 +13,12 @@ import Slider from "react-slick";
 import list from "../../public/list.json";
 import Cards from "./Cards";
 
+
 function Course() {
     console.log(list);
     const filterData = list.filter((item) => item.category === "paid");
+    console.log(filterData);
+
 
     var settings = {
         dots: true,
@@ -56,13 +59,18 @@ function Course() {
         <>
             <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
 
-                <div className="mb-10 mt-30">
-                    <h1 className="font-semibold  pb-4 text-2xl ">Paid Courses</h1>
+                <div className="mb-10 mt-30 justify-center text-center">
+                    <h1 className="font-semibold  pb-4 text-4xl ">Paid Courses</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
                         veritatis alias pariatur ad dolor repudiandae eligendi corporis nulla
                         non suscipit, iure neque earum?
                     </p>
+                    <button type="button"  className="bg-yellow-800 text-white my-3 text-xl cursor-pointer px-3 py-1 rounded-md hover:bg-amber-950 duration-400" >
+                        <a href="/">back</a>
+                    </button>
+
+
                     <br />
                 </div>
 
@@ -71,10 +79,10 @@ function Course() {
                         return <Cards key={item.id} item={item} />;
                     })}
                 </Slider>
-                </div >
-            </>
-        
-  );
+            </div >
+        </>
+
+    );
 }
 
 export default Course;

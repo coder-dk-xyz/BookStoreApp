@@ -6,9 +6,9 @@ import Footer from '../components/Footer'
 function Courses() {
     return (
         <>
-        <Navbar/>
-        <Course/>
-        <Footer/>
+            <Navbar />
+            <Course />
+            <Footer />
         </>
     )
 }
