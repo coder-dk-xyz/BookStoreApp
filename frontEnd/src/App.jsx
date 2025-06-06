@@ -14,14 +14,12 @@ function App() {
 
   return (
     <>
- 
+    <div className='dark:bg-black dark:text-white'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/courses' element={<Courses />} />
-        {/* <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Signup />} />
-        <Route path='/logout' element={<Logout />} /> */}
       </Routes>
+    </div>
     </>
   )
 }
