@@ -134,6 +134,7 @@ function Navbar() {
               className="theme-controller"
               value="synthwave"
                checked={theme === "dark"}
+                onChange={() => setTheme(theme === "dark" ? "light" : "dark")}
               
             />
 
