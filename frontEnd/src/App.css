@@ -2,3 +2,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
 @custom-variant dark (&:where(.dark, .dark *));
+
+.body {
+  @apply bg-base-100 text-base-content;
+    @apply min-h-screen flex flex-col;
+    padding: 10px;
+}
+

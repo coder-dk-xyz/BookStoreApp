@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div>
+    <div className='p-2.5'>
       <Navbar/>
       <Banner/>
       <Freebook/>
