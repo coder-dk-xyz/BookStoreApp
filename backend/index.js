@@ -30,15 +30,10 @@ app.use("/user", userRoute);
 
 
 // connect to MongoDB IN TRY CATCH
-try {
-  mongoose.connect(MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
-  console.log('Connected to MongoDB');
-} catch (error) {
-  console.error('Error connecting to MongoDB:', error);
-}
+mongoose.connect(MONGODB_URI)
+  .then(() => console.log(' Connected to MongoDB'))
+  .catch((err) => console.error(' MongoDB connection error:', err));
+
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
