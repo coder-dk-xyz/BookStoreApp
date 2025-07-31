@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Login from './Login'
+import React from "react";
+import { Link } from "react-router-dom";
+import Login from "./Login";
 import { useForm } from "react-hook-form";
 
 function Signup() {
@@ -12,70 +12,79 @@ function Signup() {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <div className='flex h-screen justify-center items-center '>
-      <div className=" relative shadow-md p-6 border-0.5 rounded-md dark:bg-gray-800 dark:text-white">
-        <div className="w-80">
-
+    <div className="flex h-screen items-center justify-center ">
+      <div className=" w-[400px] border shadow-3 p-5 rounded-xl">
+        <div className="">
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
-
-            <Link to={'/'} className="btn btn-sm btn-circle btn-ghost absolute top-2 right-2 ">✕</Link>
-
-            <h3 className="font-bold text-xl mb-6">Signup!</h3>
-
-            <div className='mb-4 space-y-2'>
-              <span className="">Name</span>
+            <div className="flex justify-between">
+              <h3 className="font-bold text-lg">Signup</h3>
+              <Link to="/" className="btn btn-sm btn-circle">
+                ✕
+              </Link>
+            </div>
+            {/* Name */}
+            <div className="mt-4 space-y-2">
+              <span>Name</span>
               <br />
-              <input type="text" placeholder="Enter your Name" className="outline-none bg-yellow-50  w-full rounded max-w-xs pl-4 p-2  hover:bg-yellow-200 mb-2"
-                {...register("name", { required: true })}
-
+              <input
+                type="text"
+                placeholder="Enter your fullname"
+                className="w-80 px-3 py-1 border rounded-md outline-none"
+                {...register("fullname", { required: true })}
               />
               <br />
-              {errors.name && (
+              {errors.fullname && (
                 <span className="text-sm text-red-500">
                   This field is required
                 </span>
               )}
             </div>
 
-            <br />
-            <div className='mt-4 space-y-2'>
-              <span className="">Email</span>
-              <br />
-              <input type="email" placeholder="Enter your Email" className="outline-none bg-yellow-50  w-full rounded max-w-xs pl-4 p-2  hover:bg-yellow-200 mb-2"
-                {...register("email", { required: true })}
-              />
-              <br />
-              {errors.email && (
-                <span className="text-sm text-red-500">
-                  This field is required
-                </span>
-              )}
-            </div>
+            {/* Email */}
+              <div className="mt-4 space-y-2">
+                <span>Email</span>
+                <br />
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="w-80 px-3 py-1 border rounded-md outline-none"
+                  {...register("email", { required: true })}
+                />
+                <br />
+                {errors.email && (
+                  <span className="text-sm text-red-500">
+                    This field is required
+                  </span>
+                )}
+              </div>
 
-            <br />
-            <div className='mb-2 space-y-2'>
-              <span className="">PassWord</span>
-              <br />
-              <input type="password" placeholder="Enter your Password" className="outline-none bg-yellow-50  w-full rounded max-w-xs pl-4 p-2  hover:bg-yellow-200 mb-6 "
-                {...register("password", { required: true })}
-              />
-              <br />
-              {errors.email && (
-                <span className="text-sm text-red-500">
-                  This field is required
-                </span>
-              )}
-            </div>
-
-          <div className="flex justify-around mt-4">
+            {/* Password */}
+              <div className="mt-4 space-y-2">
+                <span>Password</span>
+                <br />
+                <input
+                  type="text"
+                  placeholder="Enter your password"
+                  className="w-80 px-3 py-1 border rounded-md outline-none"
+                  {...register("password", { required: true })}
+                />
+                <br />
+                {errors.password && (
+                  <span className="text-sm text-red-500">
+                    This field is required
+                  </span>
+                )}
+              </div>
+              {/* button */}
+              <div className="flex justify-around mt-4">
                 <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
                   Signup
                 </button>
                 <p className="text-xl">
                   Have account?{" "}
                   <button
-                    className="underline text-blue-500 cursor-pointer"
+                    className="underline text-blue-500 hover:cursor-pointer"
                     onClick={() =>
                       document.getElementById("my_modal_3").showModal()
                     }
@@ -85,16 +94,11 @@ function Signup() {
                   <Login />
                 </p>
               </div>
-
           </form>
-
-
-
-
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Signup
+export default Signup;
