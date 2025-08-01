@@ -9,21 +9,15 @@ const app = express();
 
 
 app.use(cors()); // Enable CORS for all routes
-
-
 dotenv.config();
+app.use(express.json());// Middleware to parse JSON bodies
 
-// Middleware to parse JSON bodies
-app.use(express.json());
-
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT ;
 
 // const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/BookData';
-
 const MONGODB_URI = process.env.MONGODB_URI
 
 // defining routes
-
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
 
@@ -32,11 +26,19 @@ app.use("/user", userRoute);
 
 
 // connect to MongoDB IN TRY CATCH
-mongoose.connect(MONGODB_URI)
-  .then(() => console.log(' Connected to MongoDB'))
-  .catch((err) => console.error(' MongoDB connection error:', err));
+try {
+    mongoose.connect(MONGODB_URI, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    });
+    console.log("Connected to mongoDB");
+} catch (error) {
+    console.log("Error: ", error);
+}
 
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
+

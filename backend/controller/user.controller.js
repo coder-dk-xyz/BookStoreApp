@@ -12,7 +12,8 @@ export const signup = async (req, res) => {
             return res.status(400).json({ message: "User already exists" });
         }
 
-        const hashedPassword = bcryptjs.hash(password, 10);
+        const hashedPassword = await bcryptjs.hash(password, 10);
+
         if (!hashedPassword) {
             return { status: 500, message: "Error hashing password" };
         }
@@ -32,7 +33,7 @@ export const signup = async (req, res) => {
         res.status(500).json({ message: "Internal server error" });
     }
 }
-
+ 
 // Login a user
 export const login = async (req, res) => {
     try {
@@ -45,7 +46,6 @@ export const login = async (req, res) => {
         if (!isPasswordCorrect) {
             return res.status(400).json({ message: "password is incorrect " });
         }
-
         res.status(200).json({
             message: "Login successful",
             user: {

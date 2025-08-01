@@ -38,7 +38,7 @@ function Course() {
 
   return (
     <>
-      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div className="pt-10 max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div className="mb-10 mt-20 items-center justify-center text-center">
           <h1 className="font-semibold  pb-4 text-4xl ">Paid Courses</h1>
           <p>
@@ -56,7 +56,7 @@ function Course() {
           </Link>
           <br />
         </div>
-        <div className="mt-12 grid grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {book.map((item) => (
             <Cards key={item.id} item={item} />
           ))}
