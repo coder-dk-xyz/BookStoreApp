@@ -3,10 +3,14 @@ import React from "react";
 function Cards({ item }) {
   return (
     <>
-      <div className="mt-8 mb-2 my-3  p-2">
-        <div className="card     bg-base-100 shadow-xl hover:scale-105 duration-200  dark:bg-slate-900 dark:text-white dark:border">
-          <figure>
-            <img className="" src={item.image} alt="" />
+      <div className="w-56 md:w-76 mt-2 mb-2 my-3  p-2">
+        <div className="card  p-1.5   bg-base-100 shadow-xl hover:scale-105 duration-200  dark:bg-slate-900 dark:text-white dark:border">
+          <figure className="w-full">
+            <img
+              src={item.image}
+              alt={item.name}
+              className="w-full h-auto object-contain"
+            />
           </figure>
 
           <div className="card-body">

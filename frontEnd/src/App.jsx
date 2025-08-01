@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 // pages import:-,Courses,Home,Login,Register,Logout
 import Home from './pages/Home'
 import Courses from './pages/Courses'
