@@ -10,7 +10,7 @@ import { useAuth } from './context/AuthProvider';
 function App() {
 
       const [authUser, setAuthUser] = useAuth();
-      console.log(authUser);
+      console.log("Auth User:", authUser);
   return (
     <>
       {/* Toast Container */}
@@ -19,7 +19,7 @@ function App() {
       <div className='dark:bg-black dark:text-white'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/courses' element={<Courses />} />
+          <Route path='/courses' element={authUser ? <Courses /> : <Navigate to="/signup" />} />
           <Route path='/signup' element={<Signup />} />
         </Routes>
       </div>
