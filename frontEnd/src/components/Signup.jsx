@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Login from "./Login";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import { toast } from "react-hot-toast";
+import { useNavigate, useLocation } from "react-router-dom";
 
 
 function Signup() {
@@ -12,6 +14,7 @@ function Signup() {
     formState: { errors },
   } = useForm();
   const onSubmit = async (data) => {
+    console.log("data", data);
     const userInfo = {
       fullname: data.fullname,
       email: data.email,
@@ -20,12 +23,13 @@ function Signup() {
     await axios
       .post("http://localhost:4001/user/signup", userInfo)
       .then((res) => {
-        console.log(res.data);
+        console.log("Signup response:", res.data);
         if (res.data) {
+          localStorage.setItem("Users", JSON.stringify(res.data.user));
           toast.success("Signup Successfully");
-          navigate(from, { replace: true });
+         
         }
-        localStorage.setItem("Users", JSON.stringify(res.data.user));
+         navigate(from, { replace: true });
       })
       .catch((err) => {
         if (err.response) {
